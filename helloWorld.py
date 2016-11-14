@@ -1,3 +1,4 @@
+import os
 from selenium  import webdriver
 
 chromedriver = "/Users/Gonzalo Cattini/Downloads/chromedriver"
