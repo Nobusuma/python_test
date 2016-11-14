@@ -1,2 +1,5 @@
 from selenium  import webdriver
-driver = webdriver.Chrome()
+
+chromedriver = "/Users/Gonzalo Cattini/Downloads/chromedriver"
+os.environ["webdriver.chrome.driver"] = chromedriver
+testDriver = webdriver.Chrome(chromedriver)
